@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<!--ITC298 A6, Shopping List
+ 	dependent files: script.js, styles.css, jquery-1.9.0.js-->
+    <!--Written by Mario Keeney-Ditolla of mardit.com on 2/24/2013, please do not reuse unless you give me credit!-->
+ 	<title>Mario Keeney-Ditolla's A6 Shopping Assignment for ITC298 Winter 2013</title>
+ 	<meta name="robots" content="noindex, nofollow" />
+ 	<meta name="author" content="Mario Keeney-Ditolla" />
+ 	<meta name="copyright" content="1/13/2013" />
+ 	<link rel="stylesheet" href="css/styles.css" />
+ 	<script src="js/jquery-1.9.0.js"></script>
+ 	<script src="js/scripts.js"></script>
+ </head>
+ <body>
+ 
+ <div id="wrapper">
+ 
+	<h1>My Coffeeshop</h1>
+	<h2>Mario Keeney-Ditolla's A6 assignment for ITC298 Winter 2013</h2>
+	
+	<p id="instructions">Click on a drink name, description, or price to see a drink.  Then use the Add to Cart, Remove from Cart, and Clear Cart buttons to your hearts content.</p>
+	 
+	<table id="drink_table">
+		<thead>
+			<tr>
+				<th>
+					Name
+				</th>
+				<th>
+					Description
+				</th>
+				<th>
+					Price
+				</th>
+			</tr>
+		</thead>
+		
+		<tbody id="drink_list">
+		
+		</tbody><!--#drink_list-->
+		
+	</table><!--#drink_table-->
+	
+	<div id="image_preview">
+ 		<img src="images/vanillaLatte.jpg" alt="" />
+ 		
+ 		<p class="drink_name">Drink Name</p>
+ 		
+ 		<p class="drink_desc">
+ 			Description
+ 		</p>
+ 		
+ 		<p class="drink_price">
+ 			Price
+ 		</p>
+ 
+	</div><!--#image_preview-->
+	
+	<div id="controls" class="clear">
+		<button id="add_item">Add to Cart</button>
+		<button id="remove_item">Remove from Cart</button>
+		<button id="clear_cart">Clear Cart</button>
+	</div><!--#controls-->
+	
+	
+	<h2>
+		Shopping Cart
+	</h2>
+	<table id="shopping_cart">
+		<thead>
+			<tr>
+				<th>Drink</th>
+				<th># Drinks</th>
+				<th>Price</th>
+			<tr>
+		</thead>
+		<tbody>
+
+		</tbody>
+		<tfoot>
+			<tr>
+				<th>
+					Grand Total:
+				</th>
+				<td id="drinks_total"></td>
+				<td id="grand_total"></td>
+			</tr>
+		</tfoot>
+	</table>
+	
+ </div><!--#wrapper-->
+ 
+ <p id="note">I wrote this entire program from scratch.  There was no copying and pasting in any of my script or css.  The cart is accurate, and all things function correctly. Please see my js, I put a lot of work into it and would really know what you think. :P I also created the script in a way that anyone who reads the instructions can add drinks.  The entire page will dynamically generate any time a new drink is added or removed via the detailed instructions in the script. I was sorely tempted to add tax, but my teeth feel hairy and I've had too much coffee already. Hehehe... CODE ZOMBIFICATION!</p>
+ 
+ </body>
+ </html>

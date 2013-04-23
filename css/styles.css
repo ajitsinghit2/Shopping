@@ -1,0 +1,161 @@
+/*Written by Mario Keeney-Ditolla of mardit.com on 2/24/2013, please do not reuse unless you give me credit!*/
+/*css file for itc298/assignments/shopping/index.html*/
+/*dependent files: index.html, jquery-1.9.0.js, scripts.js*/
+
+/*global reset and border-radius set*/
+* {
+	padding:0px;
+	margin:0px;
+	border-radius:15px;
+}
+
+/*wrapper*/
+#wrapper {
+	width:916px;
+	margin: 25px auto;
+	border:6px #C0C solid;
+}
+
+.reddish {
+	background-color:#C11;
+	color:white;	
+}
+
+.blueish {
+	background-color:#22F;
+	color:white;	
+}
+
+/*header styles*/
+h1, h2 {
+	margin:15px;
+	font-family:"Comic Sans MS", cursive;
+	font-style:italic;
+	color:gray;	
+}
+
+h2 {
+	text-align:center;
+	margin-top:40px;
+}
+
+/*body styles*/
+.highlight {
+	padding:2px;
+	border:3px #C0C dotted;
+	background-color:yellow;	
+}
+
+p.drink_name {
+	font-size:18pt;
+	font-weight:bold;
+}
+
+.clear {
+	clear:both;	
+}
+
+#instructions {
+	font-size:12pt;
+	font-family:cursive;
+	padding:5px;
+	margin:15px;
+}
+
+/*drink_table*/
+
+#drink_table * {
+	padding:5px;
+}
+
+#drink_table {
+	border:2px #000 solid;
+	border-collapse:collapse;
+	margin:15px 5px;
+	width:450px;
+	float:left;
+}
+
+#drink_table th{
+	border:2px blue solid;
+	text-align:left;
+}
+
+#drink_list td{
+	border:2px black solid;
+}
+
+/*#image_preview div styles*/
+#image_preview h2 {
+	margin:15px 10px;	
+}
+
+#image_preview {
+	width:400px;
+	float:right;
+	border:2px black solid;
+	height:320px;
+	margin:15px 20px;
+	padding:5px;
+}
+
+#image_preview p {
+	width: 150px;
+	margin:10px;
+	padding:5px;
+}
+
+#image_preview img {
+	width:200px;
+	float:right;
+	margin:15px 10px;
+}
+
+/*shopping_cart*/
+#shopping_cart {
+	border-collapse:collapse;
+	margin:15px auto;
+	width:500px;
+	font-size:14pt;
+}
+
+#shopping_cart * {
+	padding:5px;
+	border:2px #000 solid;
+}
+
+
+/*controls*/
+#controls {
+	text-align:right;
+	margin:15px 40px;
+}
+
+#controls button {
+	font-size:14pt;
+	font-family:"Comic Sans MS", cursive;
+	padding:4px;	
+}
+
+#add_item {
+	background-color:green;
+	color:white;	
+}
+
+#remove_item {
+	background-color:yellow;
+}
+
+#clear_cart {
+	background-color:blue;
+	color:white;	
+}
+
+
+/*notes*/
+#note {
+	width:400px;
+	margin:0 auto;
+	border:1px red dotted;
+	padding:5px;	
+}
